@@ -1,12 +1,12 @@
 #include <iostream>
 #include <iomanip>
-
+#include<cmath>
 using namespace std;
 
 int itr = 1;
 
 float gx(float x) {
-	return (x*x*x-3);
+	return sqrt(3*x+4);
 }
 
 float* getPosError(float *error) {

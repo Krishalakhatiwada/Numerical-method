@@ -7,11 +7,11 @@ using namespace std;
 int itr = 1;
 
 float fx(float x) {
-	return (x*x*x - x - 3);
+	return (x*x - 3*x - 4);
 }
 
 float f_fx(float x) {
-	return (3*x*x-1);
+	return (2*x-3);
 }
 
 float getNextX(float xn){

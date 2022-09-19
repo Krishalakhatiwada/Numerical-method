@@ -6,7 +6,7 @@ using namespace std;
 int itr = 1;
 
 float fx(float val) {
-    return (val*val*val - val - 3);
+    return (val*val - 3*val - 4);
 }
 
 float* getPosError(float *error) {
@@ -15,7 +15,7 @@ float* getPosError(float *error) {
 	}
 	return error;
 }
-
+ 
 float calculate(float *x_prev, float *fxp, float *xn, float *fxn, float *x_next, float *fx_next, float *error) {
 	
 	cout << setw(5) << left << itr++ << "\t";
